@@ -31,7 +31,7 @@
 h1 {
     margin: 0;
 }
-button {
+.sign{
     color: white;
     background-color:#3B82F6;
     border-radius: 5px;
@@ -39,10 +39,9 @@ button {
     font-size: 15px;
     border: none;
     padding: 5px 10px;
-
 }
 .image {
-    background-color: grey;
+    background-color: #6D747D;
     padding: 50px;
     
 }
@@ -50,8 +49,6 @@ button {
    text-align: center;
 }
 .information {
-    background-color: #3B82F6;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +67,7 @@ button {
 }
 
 .third {
-    background-color: rgb(141, 193, 223);
+    background-color:#E5E7EB;
     padding: 30px;
 }
 .quote {
@@ -84,4 +81,38 @@ button {
     font-size: 10px;
     margin: 0 auto;
     max-width: 500px;
+}
+.fourth {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.action {
+    background-color: #3B82F6;
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign_up {
+    background-color:#3B82F6;
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    background-color: #1F2937;
 }
