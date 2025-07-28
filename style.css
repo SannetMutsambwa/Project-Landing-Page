@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 .top {
     background-color:#1F2937 ;
@@ -13,7 +14,10 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.flowers {
+    width: 40px;
+    height: auto;
+}
 .links {
 
    display: flex;
@@ -21,6 +25,7 @@
    padding: 10px;
    margin: 0%;
    gap: 20px;
+   color: white;
 }
 .nav {
     display: flex;
@@ -30,6 +35,14 @@
 
 h1 {
     margin: 0;
+    font-weight: 900;
+    font-size: 48px;
+}
+.words{
+    color: white;
+}
+.secondary-text {
+    font-size: 18px;
 }
 .sign{
     color: white;
@@ -41,13 +54,15 @@ h1 {
     padding: 5px 10px;
 }
 .image {
-    background-color: #6D747D;
-    padding: 50px;
+    align-items: center;
     
 }
-.placeholder {
-   text-align: center;
+.pexel {
+    align-items: center;
+    width: 300px;
+    height: 150px;
 }
+
 .information {
     display: flex;
     flex-direction: column;
@@ -55,26 +70,36 @@ h1 {
     padding-top: 20px;
     padding-bottom: 60px;
 }
-
-.box {
-    display: flex;
-    gap: 30px;
-    padding-top: 30px;
+.rose {
+    font-size: 8px;
+    width: 70px;
+    text-align: center;
+    color: #CBCED3;
 }
-.box p{
-    border: 1px #1F2937 solid;
-    padding: 80px 10px 0px 10px;
+
+.pixabay {
+    width: 70px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.pic {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
 }
 
 .third {
     background-color:#E5E7EB;
-    padding: 30px;
+    padding: 60px;
 }
 .quote {
     text-align: center;
+    font-style: italic;
 }
 .person {
     text-align:right;
+    font-style: italic;
     
 }
 .motivation {
@@ -115,4 +140,6 @@ h1 {
 footer {
     text-align: center;
     background-color: #1F2937;
+    color: white;
+    padding: 10px;
 }
